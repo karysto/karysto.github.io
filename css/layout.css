@@ -2,26 +2,46 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
+<<<<<<< HEAD
 body { 
 	background: #FFF; 
 	margin: 0;
 }
+=======
+body { background: #FFF; }
+>>>>>>> 4c118f9bb8962e44ddb5d974d32e9e88fca641e7
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
+<<<<<<< HEAD
+=======
+@font-face{
+  font-family: "ubuntu";
+  src: url(fonts/ubuntu-r.ttf) format("truetype");
+}
+
+>>>>>>> 4c118f9bb8962e44ddb5d974d32e9e88fca641e7
 header {
    position: relative;
    height: 800px;
    min-height: 500px;
    width: 100%;
+<<<<<<< HEAD
    background: #161415 url(../images/street_4.jpg) no-repeat center center;
+=======
+   background: #161415 url(../images/city-bokeh.png) no-repeat center center;
+>>>>>>> 4c118f9bb8962e44ddb5d974d32e9e88fca641e7
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+<<<<<<< HEAD
    font-family: 'Lato', sans-serif !important;
+=======
+   font-family: "ubuntu" !important;
+>>>>>>> 4c118f9bb8962e44ddb5d974d32e9e88fca641e7
 }
 
 header h2 {
@@ -48,7 +68,11 @@ header .banner {
 header .banner-text { width: 100%; }
 
 header .banner-text h1 {
+<<<<<<< HEAD
    font-family: 'Lato', sans-serif !important;
+=======
+   font: 3.5em 'ubuntu' !important;
+>>>>>>> 4c118f9bb8962e44ddb5d974d32e9e88fca641e7
    color: #FFF;
    margin: auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
@@ -116,6 +140,7 @@ header .scrolldown a {
 /* Down arrow highlight colour */
 header .scrolldown a:hover { color: #11ABB0; }
 
+<<<<<<< HEAD
 .center-image {
   text-align: center;
   margin: 0 auto !important;
@@ -168,6 +193,8 @@ header .scrolldown a:hover { color: #11ABB0; }
 .nav-link:hover {
   opacity: 0.80;
 }
+=======
+>>>>>>> 4c118f9bb8962e44ddb5d974d32e9e88fca641e7
 
 /* ------------------------------------------------------------------ */
 /* c. About Section
@@ -177,7 +204,11 @@ header .scrolldown a:hover { color: #11ABB0; }
   background-color: #EFF4FF;
   padding: 1em 1em 3em 1em;
   text-align: center;
+<<<<<<< HEAD
   font-family: 'Lato', sans-serif !important;
+=======
+  font-family: "ubuntu" !important;
+>>>>>>> 4c118f9bb8962e44ddb5d974d32e9e88fca641e7
 }
 
   #about p {
@@ -202,20 +233,31 @@ header .scrolldown a:hover { color: #11ABB0; }
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
+<<<<<<< HEAD
 
 .pushed-up {
 	margin-top: -20px;
 }
 
+=======
+>>>>>>> 4c118f9bb8962e44ddb5d974d32e9e88fca641e7
 #portfolio {
    background: #33CCFF;
 
    padding-bottom: 40px;
+<<<<<<< HEAD
    font-family: 'Lato', sans-serif !important;
 }
 
 #portfolio h1 {
    font-family: 'Lato', sans-serif !important;
+=======
+   font-family: "ubuntu" !important;
+}
+
+#portfolio h1 {
+   font: 15px/24px 'ubuntu';
+>>>>>>> 4c118f9bb8962e44ddb5d974d32e9e88fca641e7
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 75px;
@@ -250,6 +292,10 @@ header .scrolldown a:hover { color: #11ABB0; }
    top: 0;
    width: 100%;
    height: 100%;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4c118f9bb8962e44ddb5d974d32e9e88fca641e7
 	opacity: 0;
 	-moz-opacity: 0;
 	filter:alpha(opacity=0);
@@ -269,7 +315,11 @@ header .scrolldown a:hover { color: #11ABB0; }
    font-size: 18px;
    line-height: 30px;
    text-align: center;
+<<<<<<< HEAD
    font-family: 'Lato', sans-serif !important;
+=======
+   font-family: "ubuntu" !important;
+>>>>>>> 4c118f9bb8962e44ddb5d974d32e9e88fca641e7
 
 
    opacity: 0;
@@ -292,11 +342,19 @@ header .scrolldown a:hover { color: #11ABB0; }
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
+<<<<<<< HEAD
    font-family: 'Lato', sans-serif !important;
    color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
    font-family: 'Lato', sans-serif !important;
+=======
+   font: 14px/21px 'ubuntu';
+   color: #fff;
+}
+.portfolio-item .portfolio-item-meta p {
+   font: 12px/18px 'ubuntu';
+>>>>>>> 4c118f9bb8962e44ddb5d974d32e9e88fca641e7
    color: #c6c7c7;
    margin-bottom: 0;
 }
@@ -323,6 +381,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 }
 .popup-modal .description-box { padding: 12px 36px 18px 36px; }
 .popup-modal .description-box h4 {
+<<<<<<< HEAD
    	font-family: 'Lato', sans-serif !important;
 	margin-bottom: 12px;
    	color: #111;
@@ -337,12 +396,28 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 .popup-modal .description-box .categories {
    font-family: 'Lato', sans-serif !important;
+=======
+   font: 15px/24px 'opensans-bold', sans-serif;
+	margin-bottom: 12px;
+   color: #111;
+}
+.popup-modal .description-box p {
+	font: 14px/24px 'opensans-regular', sans-serif;
+   color: #A1A1A1;
+   margin-bottom: 12px;
+}
+.popup-modal .description-box .categories {
+   font: 11px/21px "ubuntu";
+>>>>>>> 4c118f9bb8962e44ddb5d974d32e9e88fca641e7
    color: #A1A1A1;
    text-transform: uppercase;
    letter-spacing: 2px;
    display: block;
    text-align: left;
+<<<<<<< HEAD
    font-size: 12px;
+=======
+>>>>>>> 4c118f9bb8962e44ddb5d974d32e9e88fca641e7
 }
 .popup-modal .description-box .categories i {
    margin-right: 8px;
@@ -353,12 +428,20 @@ header .scrolldown a:hover { color: #11ABB0; }
    text-align: left;
 }
 .popup-modal .link-box a {
+<<<<<<< HEAD
 	color: #fff;
 	font-family: 'Lato', sans-serif !important;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	cursor: pointer;
 	font-size: 13px;
+=======
+   color: #fff;
+	font: 11px/21px 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+   letter-spacing: 3px;
+   cursor: pointer;
+>>>>>>> 4c118f9bb8962e44ddb5d974d32e9e88fca641e7
 }
 .popup-modal a:hover {	color: #00CCCC; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
@@ -396,6 +479,10 @@ footer {
    font-size: 14px;
    text-align: center;
    position: relative;
+<<<<<<< HEAD
+=======
+   font-family: "ubuntu" !important;
+>>>>>>> 4c118f9bb8962e44ddb5d974d32e9e88fca641e7
 }
 
 footer #rounded {
@@ -410,15 +497,23 @@ footer a:hover, footer a:focus { color: #FFF; }
 
 /* copyright */
 footer .copyright {
+<<<<<<< HEAD
     padding: 0;
     margin: 20px;
+=======
+    margin: 0;
+    padding: 0;
+>>>>>>> 4c118f9bb8962e44ddb5d974d32e9e88fca641e7
  }
 footer .copyright li {
     display: inline-block;
     margin: 0;
     padding: 0;
     line-height: 24px;
+<<<<<<< HEAD
     font-family: 'Lato', sans-serif !important;
+=======
+>>>>>>> 4c118f9bb8962e44ddb5d974d32e9e88fca641e7
 }
 .ie footer .copyright li {
    display: inline;
