@@ -364,6 +364,10 @@ header .scrolldown a:hover { color: #11ABB0; }
 .popup-modal a:hover {	color: #00CCCC; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
+.modal-link {
+  text-decoration: none !important;
+  color: #088 !important;
+}
 
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
