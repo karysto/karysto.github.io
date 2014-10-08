@@ -299,7 +299,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 .portfolio-item .portfolio-item-meta p {
    font-family: 'Lato', sans-serif !important;
    color: #c6c7c7;
-   margin-top: -25px;
+   margin-top: -25px !important;
 }
 
 /* on hover */
