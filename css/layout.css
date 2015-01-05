@@ -17,7 +17,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/street_4.jpg) no-repeat center center;
+   background: #3F51B5;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -115,7 +115,7 @@ header .scrolldown a {
 }
 
 /* Down arrow highlight colour */
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #FF4081; }
 
 .center-image {
   text-align: center;
@@ -128,6 +128,8 @@ header .scrolldown a:hover { color: #11ABB0; }
   border-radius: 50%;
   height: 300px;
   width: 300px;
+  border: 2px solid #fff;
+  box-shadow: 7px 7px 12px #111;
 }
 
 .name-title {
@@ -209,7 +211,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 }
 
 #portfolio {
-   background: #33CCFF;
+   background: #2196F3;
 
    padding-bottom: 40px;
    font-family: 'Lato', sans-serif !important;
@@ -397,7 +399,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 footer {
    padding-top: 48;
    color: #FFF;
-   background-color: #00aedb;
+   background-color: #1976D2;
    font-size: 14px;
    text-align: center;
    position: relative;
@@ -475,4 +477,4 @@ footer .social-links li:first-child { margin-left: 0; }
    transition: all 0.3s ease-in-out;
 }
 
-#go-top:hover { color: #11ABB0; }
+#go-top:hover { color: #FF4081; }

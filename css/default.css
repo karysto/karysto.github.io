@@ -273,3 +273,11 @@ properly.
 
 }
 
+/* effects
+--------------------------------------------------------------- */
+#twitter,
+#skype,
+#gplus,
+#linkedin {
+  transition: all 0.35s ease-in-out;
+}
