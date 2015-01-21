@@ -128,7 +128,7 @@ header .scrolldown a:hover { color: #FF4081; }
   border-radius: 50%;
   height: 300px;
   width: 300px;
-  box-shadow: 7px 7px 20px #444;
+  box-shadow: 7px 7px 20px #222;
 }
 
 .name-title {
