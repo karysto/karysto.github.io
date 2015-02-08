@@ -16,17 +16,17 @@ $(function() {
 
 // Email protection
 $(function() {
-  document.getElementById('em').innerHTML =
-  document.getElementById('em').innerHTML.replace(/#_AT_#/g, '@').replace(/#_DOT_#/g, '.');
+  $('#em')[0].innerHTML =
+  $('#em')[0].innerHTML.replace(/#_AT_#/g, '@').replace(/#_DOT_#/g, '.');
 });
 
 // Active nav tab
-$(".navitem").click(function(e) {
-    e.preventDefault();
-    $("#sidebar-wrapper").toggleClass("active");
+$('.navitem').click(function(e) {
+  e.preventDefault();
+  $('#sidebar-wrapper').toggleClass('active');
 });
 
-$("#menu-toggle").click(function(e) {
-    e.preventDefault();
-    $("#sidebar-wrapper").toggleClass("active");
+$('#menu-toggle').click(function(e) {
+  e.preventDefault();
+  $('#sidebar-wrapper').toggleClass('active');
 });
