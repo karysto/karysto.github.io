@@ -6,24 +6,6 @@
 		<script type="text/javascript">new WOW().init();</script>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<title>Thanasi Karachotzitis</title>
-		<script>
-			$(function() {
-	  			$('a[href*=#]:not([href=#])').click(function() {
-					if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname)
-					{
-						var target = $(this.hash);
-      					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      					if (target.length) {
-        					$('html,body').animate({
-          						scrollTop: target.offset().top
-        					}, 1000);
-        					return false;
-      					}
-					}
-    				this.toggleClass("active");
-  				});
-			});
-		</script>
 	</head>
 	<body>
 
@@ -31,7 +13,8 @@
   	<nav class="navbar navbar-inverse navbar-fixed-top">
   		<div class="container">
     		<div class="navbar-header">
-  				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+  				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#navbar" aria-expanded="false" aria-controls="navbar">
         			<span class="sr-only">Toggle navigation</span>
         			<span class="icon-bar"></span>
         			<span class="icon-bar"></span>
@@ -64,9 +47,6 @@
 				<div class="container content">
 					<h1>About Me</h1>
 					<p class="wow zoomIn">
-						I'm a creative full-stack web developer as well as C# developer.
-						I like to make websites and code for people. I am also a sophomore
-						and Honors/AP student pursuing a career in Computer Science
 					</p>
 				</div>
 			</div>
@@ -79,76 +59,76 @@
 					<hr />
 
 					<article class="project wow bounceInUp">
-						<h1 class=""><strong><a href="//tk.com/">FetchrBot</a></strong></h1>
-						<h2 class="">Get information without internet.</h2>
+						<h1 class=""><strong><a href="">FetchrBot</a></strong></h1>
+						<h2 class="">A service which lets users retrieve information without having an Internet connection.</h2>
 						<h4 class="">Built with: Twilio API, Node.js, Hapi.js</h4>
 						<br /><br />
 					</article>
 
 					<article class="project wow bounceInUp">
-						<h1 class=""><strong><a href="//tk.com/">University of Toronto Course API</a></strong></h1>
-						<h2 class="">Build apps quicker for UofT students.</h2>
+						<h1 class=""><strong><a href="">University of Toronto Course API</a></strong></h1>
+						<h2 class="">
+							An NPM module which provides functionality to help developers
+							get information about UofT's course listings.
+						</h2>
 						<h4 class="">Built with: Node.js</h4>
 						<br /><br />
 					</article>
 
 					<article class="project wow bounceInUp">
-						<h1 class="">
-							<strong>
-								<a href="//tk.com/">Arima.io
-									<i class="fa fa-heart animated infinite pulse" style="color:red"></i>
-								</a>
-							</strong>
-						</h1>
+						<h1 class=""><strong><a href="">Arima.io</a></strong></h1>
+						<h2 class="">
+							A crowd-sourced data-aggregation and presentation web app which
+							displays statistic visualizations.
+						</h2>
+						<h4 class="">Built with: Ruby On Rails, PostgreSQL, JavaScript, HTML/CSS </h4>
+						<br /><br />
+					</article>
+
+					<article class="project wow bounceInUp">
+						<h1 class=""><strong><a href="">StudyBuddies</a></strong></h1>
+						<h2 class="">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</h2>
+						<h4 class="">Built with: Ruby On Rails, MySQL, JavaScript, HTML/CSS </h4>
+						<br /><br />
+					</article>
+
+					<!-- <article class="project wow bounceInUp">
+						<h1 class=""><strong><a href="">Creative Domain</a></strong></h1>
+						<h2 class="">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</h2>
+						<h4 class="">Built with: Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </h4>
+						<br /><br />
+					</article> -->
+
+					<article class="project wow bounceInUp">
+						<h1 class=""><strong><a href="">eCommerce Store</a></strong></h1>
 						<h2 class="">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</h2>
 						<h4 class="">Built with: Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </h4>
 						<br /><br />
 					</article>
 
 					<article class="project wow bounceInUp">
-						<h1 class=""><strong><a href="//tk.com/">StudyBuddies</a></strong></h1>
+						<h1 class=""><strong><a href="">Multiplayer Connect 4</a></strong></h1>
 						<h2 class="">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</h2>
 						<h4 class="">Built with: Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </h4>
 						<br /><br />
 					</article>
 
 					<article class="project wow bounceInUp">
-						<h1 class=""><strong><a href="//tk.com/">Creative Domain</a></strong></h1>
+						<h1 class=""><strong><a href="">Block Breaker Game</a></strong></h1>
 						<h2 class="">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</h2>
 						<h4 class="">Built with: Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </h4>
 						<br /><br />
 					</article>
 
 					<article class="project wow bounceInUp">
-						<h1 class=""><strong><a href="//tk.com/">eCommerce Store</a></strong></h1>
+						<h1 class=""><strong><a href="">TraigER App</a></strong></h1>
 						<h2 class="">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</h2>
 						<h4 class="">Built with: Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </h4>
 						<br /><br />
 					</article>
 
 					<article class="project wow bounceInUp">
-						<h1 class=""><strong><a href="//tk.com/">Multiplayer Connect 4</a></strong></h1>
-						<h2 class="">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</h2>
-						<h4 class="">Built with: Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </h4>
-						<br /><br />
-					</article>
-
-					<article class="project wow bounceInUp">
-						<h1 class=""><strong><a href="//tk.com/">Block Breaker Game</a></strong></h1>
-						<h2 class="">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</h2>
-						<h4 class="">Built with: Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </h4>
-						<br /><br />
-					</article>
-
-					<article class="project wow bounceInUp">
-						<h1 class=""><strong><a href="//tk.com/">TraigER App</a></strong></h1>
-						<h2 class="">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</h2>
-						<h4 class="">Built with: Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </h4>
-						<br /><br />
-					</article>
-
-					<article class="project wow bounceInUp">
-						<h1 class=""><strong><a href="//tk.com/">Pigeon Passage</a></strong></h1>
+						<h1 class=""><strong><a href="">Pigeon Passage</a></strong></h1>
 						<h2 class="">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</h2>
 						<h4 class="">Built with: Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </h4>
 						<br /><br />
@@ -178,37 +158,6 @@
 				document.getElementById('em').innerHTML =
 				document.getElementById('em').innerHTML.replace(/#_AT_#/g, '@').replace(/#_DOT_#/g, '.');
 			});
-		</script>
-		<script type="text/javascript">
-			$("#loader").show();
-			$("#wholething").hide();
-			$(window).load(function() {
-	    		$("#loader").hide();
-	    		$("#wholething").show();
-			});
-			$(function() {
-  				$('a[href*=#]:not([href=#])').click(function() {
-    				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      					var target = $(this.hash);
-      					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      					if (target.length) {
-        					$('html,body').animate({
-          						scrollTop: target.offset().top
-        					}, 1000);
-        					return false;
-      					}
-    				}
-  				});
-			});
-			/*
-			var text = ['I\'m a sophomore', 'I\'m a full-stack web developer', 'I\'m an Entrepreneur', 'I\'m a .NET developer', 'I\'m a musician', 'I\'m a mathematician', 'I\'m a scientist', 'I\'m pentalingual'];
-    		i = 0,
-
-			setInterval(function ()
-			{
-    			$("#about").text(text[i++ % text.length]);
-			}, 1000);
-			*/
 		</script>
 	</body>
 </html>
