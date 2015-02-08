@@ -6,6 +6,13 @@
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 @import url(metro-bootstrap.min.css);
 
+/* General */
+::selection {
+  background: #f0f0f0;
+  color: #55acee;
+}
+
+/* Splash section */
 .jumbotron {
   height: 100%;
   margin-bottom: 0;
@@ -46,4 +53,12 @@
 
 #description {
   margin-top: -10px;
+}
+
+/* Project section */
+.project h1 a:hover {
+  text-decoration: none;
+  background: #55acee;
+  color: #fff;
+  border-radius: 8px;
 }
