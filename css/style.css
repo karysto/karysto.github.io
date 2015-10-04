@@ -19,7 +19,7 @@
 }
 
 .jumbotron .container {
-  margin-top: 20%
+  margin-top: 15%;
 }
 
 .background-image {
@@ -46,6 +46,14 @@
   z-index: 9999;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.portrait {
+  background: url(../img/me.jpg);
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  background-size: cover;
 }
 
 #description {
